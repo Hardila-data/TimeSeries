@@ -1,0 +1,30 @@
+hyperparams:
+  # age-extractor: {}
+  # simplified-transformer: {}
+  regressor:
+    max_depth: 4
+    n_estimators: 30
+
+
+
+data:
+  filepath: ./timeseries.csv
+
+metrics:
+  - name: bike_error
+    params: {}
+
+
+search:
+  jobs: -1
+  grid:
+    regressor:
+      n_estimators: [30, 50, 80]
+      max_depth: [2,4,6,7]
+    
+
+export:
+  output_dir: ./models
+
+reports:
+  dir: ./reports
