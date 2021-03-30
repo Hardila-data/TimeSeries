@@ -1,4 +1,4 @@
-houseprice
+TimeSeries(Bicycle Demand Prediction)
 ==============================
 
 A short description of the project.
