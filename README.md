@@ -1,9 +1,9 @@
 TimeSeries(Bicycle Demand Prediction)
 ==============================
-To use this in a correct way change this two lines according to the place where you download the file:
+To use this in a correct way, change this two lines according to the place where you download the file:
 (service/app.py  line 11 and 12 )<br><br>
-os.environ["SERIALIZED_MODEL_PATH"] = "C:/usuario//folder/demo/demoBicicletas/models/2021-03-30 16_51_00+00_00/model.joblib"<br>
-os.environ["MODEL_LIB_DIR"] = "C:/usuario//folder/Carpeta_ubicacion\demo\demoBicicletas\modelling"
+os.environ["SERIALIZED_MODEL_PATH"] = "C:/user//folder/demo/demoBicicletas/models/2021-03-30 16_51_00+00_00/model.joblib"<br>
+os.environ["MODEL_LIB_DIR"] = "C:/user//folder/demo/demoBicicletas/modelling"
 
 <br><br>
 To run the model in FASTAPI go to the terminal and use the command unicorn app:app --reload in service folder
