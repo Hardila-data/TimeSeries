@@ -1,7 +1,7 @@
 TimeSeries(Bicycle Demand Prediction)
 ==============================
 To use this in a correct way change this two lines according to the place where you download the file:
-(service/app.py  line 11 and 12 )
+(service/app.py  line 11 and 12 )<br>
 os.environ["SERIALIZED_MODEL_PATH"] = "C:/usuario//nameuser/Carpeta_ubicacion/demo/demoBicicletas/models/2021-03-30 16_51_00+00_00/model.joblib"
 os.environ["MODEL_LIB_DIR"] = "C:/usuario//nameuser /Carpeta_ubicacion\demo\demoBicicletas\modelling"
 
